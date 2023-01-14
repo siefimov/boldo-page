@@ -1,0 +1,129 @@
+.page__save-time {
+  // display: flex;
+}
+.save-time {
+  background-color: #0a2640;
+
+  padding-top: 20px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.top-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+  position: relative;
+  z-index: 10;
+  &__content {
+    max-width: 567px;
+  }
+  &__img {
+    max-width: 494px;
+  }
+  &__content-text {
+    margin-bottom: 40px;
+  }
+  &__content-title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+  &__content-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #f1f1f1;
+  }
+  &__img {
+    display: flex;
+    flex-direction: column;
+  }
+  &__img-top {
+    border-radius: 15px;
+    margin-bottom: 27px;
+  }
+  &__img-bottom img:first-child {
+    margin-right: 32px;
+  }
+  &__buttons {
+    display: flex;
+  }
+}
+
+.buttons {
+  & a {
+    padding: 16px 56px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 56px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__green {
+    background-color: #65e4a3;
+    border: 2px solid #69e6a6;
+    color: #0a2640;
+    margin-right: 24px;
+  }
+  &__dark {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+}
+
+.logo-wall {
+  margin-bottom: 64px;
+  // background: #0a2640;
+  background: linear-gradient(
+    90deg,
+    #0a2640 0%,
+    rgba(10, 38, 64, 0.109375) 31.6%,
+    rgba(10, 38, 64, 0) 72.89%,
+    #0a2640 97.87%
+  );
+  position: relative;
+  z-index: 100;
+  &__lists {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    background: linear-gradient(
+      90deg,
+      #0a2640 0%,
+      rgba(10, 38, 64, 0.109375) 31.6%,
+      rgba(10, 38, 64, 0) 72.89%,
+      #0a2640 97.87%
+    );
+    position: relative;
+    z-index: 100;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+  &__logo-img {
+    margin-right: 10px;
+  }
+  &__logo-name {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 31.8788px;
+    line-height: 41px;
+    color: #ffffff;
+  }
+}
